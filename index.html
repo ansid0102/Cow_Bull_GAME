@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COW-BULL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>COW<-_->BULL</h1>
+    </header>
+    <main>
+        <h2 style="color: red;">How to play the game</h1>
+        <p>Cow Bull is mental game where in the rules are very simple. A person(in this case computer) chooses a random 4 letter word and you're to guess the word by looking at the bulls and cows.
+           <br> A cow is when a letter exists in the original word but not exactly in the same position. A bulls is when a letter exists in the same position of that of the original word.
+        </p>
+    </main>
+    <div id="play">
+        <h2>Guess the word</h2>
+        <h2 id="actual_word"></h2>
+        <button id="guess">Reveal</button>
+        <table id="score">
+            <tr>
+                <th>Bulls</th>
+                <th>Cows</th>
+            </tr>
+            <tr>
+                <td id="bull">0</td>
+                <td id="cow">0</td>
+            </tr>
+        </table>
+        <input type="text" name='user_word'id="user_word" maxlength="4">
+        <h3 id="error"></h3>
+        <ul id="history">
+
+        </ul>
+    </div>
+<footer>
+    
+    <h2>Author: K Hari Aneesh Siddhartha</h2>
+</footer>
+</body>
+<script src="./index2.js"></script>
+</html>
