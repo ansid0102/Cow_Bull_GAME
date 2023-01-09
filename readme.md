@@ -20,3 +20,10 @@ Sample Images of the game:
 
 ## Alert when the word is correctly guessed along with the attempts
 ![image](https://user-images.githubusercontent.com/78897025/198826229-011eb9a5-9ef3-4a48-9d66-0150e06da615.png)
+
+
+
+
+
+
+##THIS IS UNDER TEST
